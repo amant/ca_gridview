@@ -1,0 +1,19 @@
+/* general styles */
+#ca_gridview table, #ca_gridview td{font:100% Arial, Helvetica, sans-serif;}
+#ca_gridview table{width:100%;border-collapse:collapse;margin:1em 0;}
+#ca_gridview th, #ca_gridview td{text-align:left;padding:.5em;border:1px solid #fff;}
+#ca_gridview th{background:#328aa4 url(../../images/tablecloth/tr_back.gif) repeat-x;color:#fff; white-space: nowrap;}
+#ca_gridview td{background:#e5f1f4;}
+
+/* tablecloth styles */
+#ca_gridview tr.even td{background:#e5f1f4;}
+#ca_gridview tr.odd td{background:#f8fbfc;}
+#ca_gridview th.over, #ca_gridview tr.even th.over, #ca_gridview tr.odd th.over{background:#4a98af;}
+#ca_gridview th.down, #ca_gridview tr.even th.down, #ca_gridview tr.odd th.down{background:#bce774;}
+#ca_gridview th.selected, #ca_gridview tr.even th.selected, #ca_gridview tr.odd th.selected{}
+#ca_gridview td.over, #ca_gridview tr.even td.over, #ca_gridview tr.odd td.over{background:#ecfbd4;}
+#ca_gridview td.down, #ca_gridview tr.even td.down, #ca_gridview tr.odd td.down{background:#bce774;color:#fff;}
+#ca_gridview td.selected, #ca_gridview tr.even td.selected, #ca_gridview tr.odd td.selected{background:#bce774;color:#555;}
+
+/* use this if you want to apply different styleing to empty table cells*/
+#ca_gridview td.empty, #ca_gridview tr.odd td.empty, #ca_gridview tr.even td.empty{background:#fff;}
