@@ -5,7 +5,7 @@
 </head>
 <body>
 	<div id="content">
-		<?php echo $this->ocular->yield(); ?>
+		<?php echo $this->ocular->yields(); ?>
 	</div>
 </body>
 </html>

@@ -193,7 +193,7 @@
 		 * @return  null
 		 */
 
-		function yield()
+		function yields()
 		{
 			// Do we have a function name to use?
 			if (isset($this->_view_data['view_name']))
